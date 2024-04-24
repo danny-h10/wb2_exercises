@@ -1,7 +1,7 @@
 let savings = 100
 let rate = 8;
 let ruleSeventyTwo = 72;
-let endGoal = 200
+let endGoal = savings * 2
 
 
 let years = ruleSeventyTwo / rate
