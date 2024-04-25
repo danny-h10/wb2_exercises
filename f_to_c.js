@@ -1,5 +1,8 @@
-let temp = 59;
+let temp = 75;
 
-let fahrenBeCel = (temp - 32) * 5/9;
+let celsius = (temp - 32) * 5/9;
+let celsiusRounded = Math.ceil(celsius)
 
-console.log("the conversion from f to c is " + fahrenBeCel)
+
+console.log("The tempature from f to c is " + celsius.toFixed(2))
+console.log(celsiusRounded)
